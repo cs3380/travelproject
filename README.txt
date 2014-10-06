@@ -1,0 +1,5 @@
+Alejandro Menocal
+Ryan Roberts
+Tanner Schafer
+
+Our program uses a web server that processes HTML,php, and JavaScript files and a database server that handles our gas station database and runs MySQL. We used Ajax, php and the google API to generate an XML file from our database data of the gas station coordinates and other attributes. We then used Ajax to put the extracted attributes in JavaScript variables in order to populate the gas station markers on the map. We used JavaScript and HTML to setup the web page that contains a field for the start (including your current location (geolocation class of Google API)) and the destination. There are also two fields to input your current number of gallons and avg mpg to calculate how many miles until empty. In order for all of these variables to work there are two main requirements: the SQL server setup and the webserver with Apache and php on it. We still have two separate files working one showing the Route with MPG and Destination and the other one showing some gas stations in Baton Rouge. 
